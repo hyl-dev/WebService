@@ -4,9 +4,7 @@
 how to program using c ， you need config the fastcgi in the lighttpd.congf ,for example:
 
 fastcgi.server += (
-
   // your root  url 
-  
    "/devices" => (
    
     "test.fastcgi.handler" => (
@@ -17,6 +15,8 @@ fastcgi.server += (
       
       "check-local" => "disable",
     )
+    
   )
+  
 )
 
